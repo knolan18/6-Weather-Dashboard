@@ -1,0 +1,65 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+:root {
+
+}
+
+header {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+main {
+  font-family: 'PT Sans', sans-serif;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-10 {
+  flex: 0 0 auto;
+  width: 83.33333333%;
+  border-left: 1px solid darkblue;
+}
+
+.card {
+  display: flex;
+  width: fit-content;
+  margin: 25px;
+}
+
+#selectedCity {
+  margin-left: 15px;
+}
+
+#temp {
+  margin-left: 15px;
+}
+
+#wind{
+  margin-left: 15px;
+}
+
+#humidity {
+  margin-left: 15px;
+}
+
+#uvIndex {
+  margin-left: 15px;
+}
+
+#days5 {
+  margin-left: 15px;
+}

@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=PT+Sans&display=swap" rel="stylesheet">
   <link href="./Assets/CSS/style.css" rel="stylesheet">
-  <title>Weather Dashboard</title>
+
 </head>
 <div>
   
@@ -21,7 +21,7 @@
   </nav>
 </header>
 
-<div class="container-fluid">
+<div class="container">
   <div class="row row-col-2">
     <div class="col-2">
       <!-- search title -->
@@ -32,13 +32,12 @@
       <form>this is the search input</form>
       <!-- search button -->
       <br>
-      <button id="searchBtn" class="col-10">search button</button>
+      <button class="col-10">search button</button>
         <!-- search history row-->
         <br>
         <hr>
-        <ul>
-          
-        </ul>
+        <br>
+        <h3> history list</h3>
     </div>
     <div class="col-10">
       <!-- Selected City -->
@@ -51,7 +50,7 @@
       <p id="humidity">humidity</p>
       <p id="uvIndex">uv index</p>
 </div>
-<div id="days5" class="container-fluid">
+<div id="days5" class="container">
   <div class="row row-col-5">
       <!-- 5-day forcast -->
       <div class="col-12 offset-sm-2">
@@ -60,45 +59,17 @@
         <br>
         <div class="row">
           <card class="col-2 card" id="day1">
-            <h4 id="dayForecast1">day</h4>
+            <h4>day</h4>
             <br>
-            <p id="icon1">icon</p>
-            <p id="temp1">temp</p>
-            <p id="wind1">wind</p>
-            <p id="humidity1">humidity</p>
-          </card>
-          <card class="col-2 card" id="day2">
-            <h4 id="dayForecast2">day</h4>
-            <br>
-            <p id='icon2'>icon</p>
-            <p id='temp2'>temp</p>
-            <p id='wind2'>wind</p>
-            <p id='humidity2'>humidity</p>
-          </card>
-          <card class="col-2 card" id="day3">
-            <h4 class="dayForecase3">day</h4>
-            <br>
-            <p id='icon3'>icon</p>
-              <p id='temp3'>temp</p>
-              <p id='wind3'>wind</p>
-              <p id='humidity3'>humidity</p>
-          </card> 
-          <card class="col-2 card" id="day4">
-            <h4 class="dayForecast4">day</h4>
-            <br>
-            <p id='icon4'>icon</p>
-            <p id='temp4'>temp</p>
-            <p id='wind4'>wind</p>
-            <p id='humidity4'>humidity</p>
-          </card>
-          <card class="col-2 card" id="day5">
-            <h4 id="dayForecast5">day</h4>
-            <br>
-            <p id='icon5'>icon</p>
-            <p id='temp5'>temp</p>
-            <p id='wind5'>wind</p>
-            <p id='humidity5'>humidity</p>
-          </card>
+            <p>icon</p>
+            <p>temp</p>
+            <p>wind</p>
+            <p>humidity</p>
+        </card>
+          <card class="col-2 card" id="day2">day 2</card>
+          <card class="col-2 card" id="day3">day 3</card> 
+          <card class="col-2 card" id="day4">day 4</card>
+          <card class="col-2 card" id="day5">day 5</card>
           </div>  
         </div>  
       </div>
