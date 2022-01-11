@@ -10,6 +10,10 @@ header {
   font-family: 'Abril Fatface', cursive;
 }
 
+img {
+  width: 40px;
+  height: 40px;
+}
 .navbar {
   display: flex;
   flex-wrap: wrap;
@@ -37,7 +41,9 @@ main {
 .card {
   display: flex;
   width: fit-content;
-  margin: 25px;
+  font-size: 12px;
+  background-color: lightblue;
+  margin: 2px;
 }
 
 #selectedCity {
