@@ -9,3 +9,5 @@ This image shows the completed assignment's appearance, and functionality:
 ![screenshot of website](./Assets/Images/screenshot.jpeg)
 
 ## Link to Deployed Site
+
+https://knolan18.github.io/6-Weather-Dashboard/
