@@ -26,6 +26,8 @@ $(document).ready(function() {
       .then(response => 
         response.json())
       .then(data=> {
+        $('#mainWeather').removeClass('hide');
+        $('#days5').removeClass('hide');
         var lat = data.coord.lat;
         var lon = data.coord.lon;
         var cityName = data.name;
@@ -58,6 +60,14 @@ $(document).ready(function() {
       $('#wind').text(wind + ' MPH');
       $('#uvi').text(uvi)
       console.log(data)
+      if(uvi <= 3) {
+        $('#uvi').css('background-color', 'green')
+      } else if (uvi <= 7) {
+        $('#uvi').css('background-color', 'yellow')
+      } else {
+        $('#uvi').css('background-color', 'red')
+      }
+
       // Five Day Forecast Code
       console.log(moment(data.daily[1].dt, 'X').format('MM/DD/YYYY'))
       $('.row-col-5').empty();

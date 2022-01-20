@@ -62,10 +62,16 @@ main {
   margin-left: 15px;
 }
 
-#uvIndex {
+#uvi {
   margin-left: 15px;
+  font-weight: bolder;
+  padding: 10px;
 }
 
 #days5 {
   margin-left: 15px;
+}
+
+.hide {
+  display: none;
 }
